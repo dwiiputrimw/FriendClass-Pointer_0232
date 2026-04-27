@@ -47,6 +47,12 @@ public:
         return 4 * sisi;
     }
 
+    void outputData() {
+        cout << "Luas Belah Ketupat     : " << hitungLuas() << endl;
+        cout << "Keliling Belah Ketupat : " << hitungKeliling() << endl;
+    }
+
+
 int main() {
     return 0;
 }
