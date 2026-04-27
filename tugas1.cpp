@@ -28,6 +28,11 @@ public:
         cout << "Keliling Layang-Layang : " << hitungKeliling() << endl;
     }
 
+class BelahKetupat {
+private:
+    double sisi, d1, d2;
+
+
 int main() {
     return 0;
 }
