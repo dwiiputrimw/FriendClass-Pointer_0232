@@ -52,6 +52,9 @@ public:
         cout << "Keliling Belah Ketupat : " << hitungKeliling() << endl;
     }
 
+    friend double kelilingLayang(LayangLayang &l, BelahKetupat &b);
+};
+
 
 int main() {
     return 0;
