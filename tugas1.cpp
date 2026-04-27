@@ -22,8 +22,10 @@ public:
         return 2 * (sisi1 + sisi2);
     }
 
-
-
+    void outputData() {
+        cout << "Luas Layang-Layang     : " << hitungLuas() << endl;
+        cout << "Keliling Layang-Layang : " << hitungKeliling() << endl;
+    }
 
 int main() {
     return 0;
