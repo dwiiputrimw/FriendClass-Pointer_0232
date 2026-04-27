@@ -10,4 +10,10 @@ private:
 
 public: 
     void setNama(string pNama);
+
 };
+
+void orang::setNama(string pNama)
+{
+    nama = pNama;
+}
