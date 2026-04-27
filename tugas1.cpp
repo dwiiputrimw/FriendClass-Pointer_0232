@@ -2,6 +2,7 @@
 #include <cmath>
 using namespace std;
 
+class BelahKetupat;
 class LayangLayang {
 private:
     double d1, d2, sisi1, sisi2;
