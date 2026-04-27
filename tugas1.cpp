@@ -59,10 +59,9 @@ double kelilingLayang(LayangLayang &l, BelahKetupat &b) {
     return 2 * (l.sisi1 + l.sisi2);
 }
 
-
-
-
 int main() {
-    return 0;
+    LayangLayang layang;
+    layang.inputData();
+    layang.outputData();
 }
 };
