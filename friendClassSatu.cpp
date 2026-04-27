@@ -10,10 +10,13 @@ private:
 
 public: 
     void setNama(string pNama);
-
 };
 
-void orang::setNama(string pNama)
+class siswa
 {
-    nama = pNama;
-}
+private:
+    int id;
+
+public:
+    void setId(int pId);
+};
