@@ -18,6 +18,11 @@ public:
         return 0.5 * d1 * d2;
     }
 
+    double hitungKeliling() {
+        return 2 * (sisi1 + sisi2);
+    }
+
+
 
 
 int main() {
