@@ -39,6 +39,11 @@ public:
         cout << "Diagonal 2 : "; cin >> d2;
     }
 
+    double hitungLuas() {
+        return 0.5 * d1 * d2;
+    }
+
+
 
 int main() {
     return 0;
