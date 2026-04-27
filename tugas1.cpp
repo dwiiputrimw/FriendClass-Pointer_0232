@@ -55,6 +55,12 @@ public:
     friend double kelilingLayang(LayangLayang &l, BelahKetupat &b);
 };
 
+double kelilingLayang(LayangLayang &l, BelahKetupat &b) {
+    return 2 * (l.sisi1 + l.sisi2);
+}
+
+
+
 
 int main() {
     return 0;
